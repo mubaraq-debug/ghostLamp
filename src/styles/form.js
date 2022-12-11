@@ -117,7 +117,27 @@ export const Form = styled.div`
         }   
     }
 
+    @media screen and (max-width: ${size.mobileS}) {
+        // rem_forg styling next
 
+        &> .rem_forg {
+            display: flex;
+            align-items: center;
+            font-size: 4px;
+            color: gray;
+
+
+            .rem {
+                display: flex;
+                align-items: center;
+                gap: 10px;      
+            }
+
+            .forg {
+                margin-left: 3.5rem;
+            }
+        }
+    } 
 @media screen and (max-width: ${size.mobileL}) {
     margin: 3rem 3rem;
     
@@ -168,6 +188,7 @@ export const Form = styled.div`
         &> .rem_forg {
             display: flex;
             align-items: center;
+            width: fit-content;
             font-size: 0.8rem;
             color: gray;
 
