@@ -237,7 +237,7 @@ export const Form = styled.div`
 
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            
             font-weight: 600;
 
             .rem {
@@ -249,6 +249,7 @@ export const Form = styled.div`
     
             .forg {
                 font-size: 10px;
+                margin-left: 30px;
             }
         }
         
