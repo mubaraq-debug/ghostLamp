@@ -231,29 +231,29 @@ export const Form = styled.div`
     }
 
 
-    @media screen and (max-width: ${size.mobileS}) {
+    // @media screen and (max-width: ${size.mobileS}) {
 
-        .rem_forg {
+    //     .rem_forg {
 
-            display: flex;
-            align-items: center;
-            
-            font-weight: 600;
+    //         display: flex;
+    //         align-items: center;
+    //         width: 18rem;
+    //         font-weight: 600;
 
-            .rem {
-                display: flex;
-                align-items: center;
-                gap: 10px;  
-                font-size: 10px;    
-            }
+    //         .rem {
+    //             display: flex;
+    //             align-items: center;
+    //             gap: 10px;  
+    //             font-size: 10px;    
+    //         }
     
-            .forg {
-                font-size: 10px;
-                margin-left: 30px;
-            }
-        }
+    //         .forg {
+    //             font-size: 10px;
+    //             margin-left: 30px;
+    //         }
+    //     }
         
-    }
+    // }
 }
 
 
