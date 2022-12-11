@@ -119,7 +119,7 @@ export const Form = styled.div`
 
 
 @media screen and (max-width: ${size.mobileL}) {
-    margin: 3rem 1rem;
+    margin: 3rem 3rem;
     
     &> header { 
         h1 {
@@ -231,29 +231,7 @@ export const Form = styled.div`
     }
 
 
-    // @media screen and (max-width: ${size.mobileS}) {
 
-    //     .rem_forg {
-
-    //         display: flex;
-    //         align-items: center;
-    //         width: 18rem;
-    //         font-weight: 600;
-
-    //         .rem {
-    //             display: flex;
-    //             align-items: center;
-    //             gap: 10px;  
-    //             font-size: 10px;    
-    //         }
-    
-    //         .forg {
-    //             font-size: 10px;
-    //             margin-left: 30px;
-    //         }
-    //     }
-        
-    // }
 }
 
 

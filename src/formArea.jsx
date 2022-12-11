@@ -1,6 +1,7 @@
 import { FaBell, FaEnvelope, FaLock, FaGoogle, FaFacebook, FaTwitter } from 'react-icons/fa';
 import {Form} from './styles/form';
 
+
 const FormArea = () => {
     return ( 
         <>
