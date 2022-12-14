@@ -161,6 +161,7 @@ export const Form = styled.div`
     &> .container {
         form {
             display: flex;
+            align-items: center;
             height: 3rem;
             width: 18rem;
             gap: 1rem;
@@ -170,16 +171,16 @@ export const Form = styled.div`
             outline: none;
             background: #f5f5f5;
 
-            div {
-                margin: 15px 5px;
-                color: gray;
-            }
+            // div {
+            //     margin: 15px 5px;
+            //     color: gray;
+            // }
 
             input {
                 border: none;
                 outline: none;
                 background: #f5f5f5;
-                height: 2.8rem;
+                // height: 2.8rem;
             }
         }
 
