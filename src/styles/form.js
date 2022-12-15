@@ -176,12 +176,12 @@ export const Form = styled.div`
             //     color: gray;
             // }
 
-            input {
-                border: none;
-                outline: none;
-                background: #f5f5f5;
-                height: 100vh;
-            }
+          //  input {
+             //   border: none;
+             //   outline: none;
+             //   background: #f5f5f5;
+          
+         //   }
         }
 
         // rem_forg styling next
