@@ -26,12 +26,12 @@ export const Form = styled.div`
     &> .container {
         form {
             display: flex;
-            height: 3rem;
+            height: 3.2rem;
             width: 24rem;
             gap: 1rem;
             padding-left: 1rem;
             border-radius: 3px;
-            margin-bottom: 1rem;
+           // margin-bottom: 1rem;
             outline: none;
             background: #f5f5f5;
 
@@ -44,7 +44,6 @@ export const Form = styled.div`
                 border: none;
                 outline: none;
                 background: #f5f5f5;
-                height: 2.8rem;
                 width: 18rem;
             }
         }
@@ -171,10 +170,10 @@ export const Form = styled.div`
             outline: none;
             background: #f5f5f5;
 
-            // div {
-            //     margin: 15px 5px;
-            //     color: gray;
-            // }
+             div {
+                margin: 15px 5px;
+                 color: gray;
+             }
 
           //  input {
              //   border: none;
