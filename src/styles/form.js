@@ -180,7 +180,7 @@ export const Form = styled.div`
                 border: none;
                 outline: none;
                 background: #f5f5f5;
-                height: 100%;
+                height: 100vh;
             }
         }
 
