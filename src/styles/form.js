@@ -122,7 +122,7 @@ export const Form = styled.div`
         &> .rem_forg {
             display: flex;
             align-items: center;
-            font-size: 4px;
+           // font-size: 4px;
             color: gray;
 
 
@@ -133,7 +133,7 @@ export const Form = styled.div`
             }
 
             .forg {
-                margin-left: 3.5rem;
+              //  margin-left: 3.5rem;
             }
         }
     } 
@@ -189,7 +189,7 @@ export const Form = styled.div`
             display: flex;
             align-items: center;
             width: fit-content;
-            font-size: 0.8rem;
+            font-size: 12px;
             color: gray;
 
 
@@ -200,7 +200,7 @@ export const Form = styled.div`
             }
 
             .forg {
-                margin-left: 5.5rem;
+                //margin-left: 5.5rem;
             }
         }
 
